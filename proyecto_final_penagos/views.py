@@ -19,7 +19,7 @@ def chatbot_view(request):
 
         except Palabra.DoesNotExist:
             if user_input.lower() == 'fortnite':
-                respuesta = "Fortnite es un juego popular lanzado en 2017."
+                respuesta = "Fortnite es un juego popular lanzado en 2018."
 
             elif user_input.lower() == 'cuándo salió fortnite':
                 respuesta = "Fortnite fue lanzado el 25 de julio de 2017."
